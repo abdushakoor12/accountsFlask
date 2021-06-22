@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+</html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<title>Home</title>
+</head>
+
+<body>
+	<center>
+		<h1>Account Maintainence Login</h1><br>
+		<form method="POST" action="/login">
+			<button class="loginButton" name="loginButton" value="Login">Login</button><br>
+		</form>
+		<br>
+		<form method="POST" action="/register">
+			<button class="registerButton" name="registerButton" value="Register">Register</button>
+		</form>
+		<p>If you do not have an account, please register.</p>
+	</center>
+</body>
+
+</html>

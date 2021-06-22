@@ -1,0 +1,212 @@
+body {
+
+	background-color: grey;
+}
+
+.loginButton {
+
+	display: block;
+	width: 50%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.loginButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.loginButtonFinal {
+
+	display: block;
+	width: 20%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.loginButtonFinal:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+
+.registerButton {
+
+	display: block;
+	width: 50%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.registerButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.registerButtonFinal {
+
+	display: block;
+	width: 20%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.registerButtonFinal:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+
+.homeButton {
+
+	display: block;
+	width: 20%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	left: 620px;
+	top: 20px;
+
+}
+
+.homeButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.logoutButton {
+
+	display: block;
+	width: 10%;
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 8px 8px;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: right;
+	position: absolute;
+	left: 680px;
+	top: 25px;
+
+}
+
+.logoutButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.sidenav {
+	height: 100%;
+	width: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: darkgrey;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.tutorialButton {
+
+	display: block;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 27px;
+	cursor: pointer;
+
+}
+
+.tutorialButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.addRecordButton {
+
+	display: block;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.addRecordButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.checkRecordButton {
+
+	display: block;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.checkRecordButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.dataPolicyButton {
+
+	display: block;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.dataPolicyButton:hover {
+	
+	background-color: white;
+	color: black;
+}

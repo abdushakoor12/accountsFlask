@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+</html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<title>Data Policy</title>
+</head>
+
+<body>
+	<center>
+		<h1>Data Policy</h1>
+	</center>
+		<div class="sidenav">
+		<form method="POST" action="/tutorial">
+			<button class="tutorialButton" name="tutorialButton" value="tutorial">Tutorial</button><br>
+		</form>
+		<form method="POST" action="/addrecords">
+			<button class="addRecordButton" name="addRecordButton" value="addRecord">Add Records</button><br>
+		</form>
+		<form method="POST" action="/checkrecords">
+			<button class="checkRecordButton" name="checkRecordButton" value="checkRecord">Check Records</button><br>
+		</form>
+		<form method="POST" action="/datapolicy">
+			<button class="dataPolicyButton" name="dataPolicyButton" value="dataPolicy">Data Policy</button><br>
+		</form>
+	</div>
+	<form method="POST" action="/">
+		<button class="logoutButton" name="logoutButton" value="logout">LOGOUT</button><br>
+	</form>
+</body>
+
+</html>
