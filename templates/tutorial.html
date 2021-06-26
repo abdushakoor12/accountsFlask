@@ -13,6 +13,12 @@
 <body>
 	<center>
 		<h1>Account Maintainence</h1>
+		{% if uname_email %}
+			<p>{{ uname_email }}</p>
+		{% endif %}
+		{% if password %}
+			<p>{{ password }}</p>
+		{% endif %}
 	</center>
 	<div class="sidenav">
 		<form method="POST" action="/tutorial">
