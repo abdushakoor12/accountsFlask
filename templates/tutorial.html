@@ -13,13 +13,16 @@
 <body>
 	<center>
 		<h1>Account Maintainence</h1>
-		{% if uname_email %}
-			<p>{{ uname_email }}</p>
-		{% endif %}
-		{% if password %}
-			<p>{{ password }}</p>
-		{% endif %}
 	</center>
+	<div class=welcomeLabel>
+		{% if row_email_username2 %}
+		<p>Welcome: <b>{{ row_email_username2 }}</b></p>
+		{% endif %}
+		{% if row_email_username3 %}
+		<p>Welcome: <b>{{ row_email_username3 }}</b></p>
+		{% endif %}
+		<p>This login system & data storage system was created as a password storing mechanism of sorts for any throwaway accounts that you might have at your disposal. Considering this is a centralized system I would not recommend you to store mission critical passwords on this repo. This is because, this login system was created to house data farms on a attach and push module created to </p>>
+	</div>
 	<div class="sidenav">
 		<form method="POST" action="/tutorial">
 			<button class="tutorialButton" name="tutorialButton" value="tutorial">Tutorial</button><br>
@@ -32,6 +35,9 @@
 		</form>
 		<form method="POST" action="/datapolicy">
 			<button class="dataPolicyButton" name="dataPolicyButton" value="dataPolicy">Data Policy</button><br>
+		</form>
+		<form method="POST" action="/profile">
+			<button class="profileButton" name="profileButton" value="profile">User Profile</button><br>
 		</form>
 	</div>
 	<form method="POST" action="/">

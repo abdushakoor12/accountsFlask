@@ -210,3 +210,28 @@ body {
 	background-color: white;
 	color: black;
 }
+
+.profileButton {
+
+	display: block;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.profileButton:hover {
+	
+	background-color: white;
+	color: black;
+}
+
+.welcomeLabel {
+
+	position: absolute;
+	left: 120px;
+	top: 65px;
+
+}
